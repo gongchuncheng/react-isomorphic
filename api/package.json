@@ -1,0 +1,34 @@
+{
+  "name": "react-isomorphic",
+  "version": "1.0.0",
+  "description": "react-isomorphic-node",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=test node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongchuncheng/react-isomorphic.git"
+  },
+  "keywords": [
+    "react-isomorphic"
+  ],
+  "author": "gongchuncheng",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gongchuncheng/react-isomorphic/issues"
+  },
+  "homepage": "https://github.com/gongchuncheng/react-isomorphic#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.0",
+    "express-mongoose": "^0.1.0",
+    "mongoose": "^4.8.5"
+  },
+  "devDependencies": {
+    "cross-env": "^3.1.4"
+  }
+}
